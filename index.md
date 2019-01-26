@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Notes for AWS Well-Architected Framework 
 
 - Operational excellence
