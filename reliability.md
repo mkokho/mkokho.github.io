@@ -1,13 +1,27 @@
 # Reliability Pillar 
 
-Reliability Pillar
-
 Design principles:
  - test recovery procedures
  - automatically recover from failure
  - scale horizontally
  - stop guessing capacity
  - manage change in automation
+
+Understand **availability needs**: components that have higher availability design goals will necessitate deeper investment in the engineering, testing, and operations automation.
+
+### Foundations 
+ - limit management
+  - physical limits
+  - service limits
+  - automate limit increase
+ - networking
+  - allow IP addresses for more than one region
+  - allow space for multiple subnets
+  - always leave unused CIDR blocks
+  - consider cross-account connections to shared services
+  - ensure resiliency of connectivity
+
+### Application design for availability
 
  Common sources of interruption:
  - hardware failure
@@ -19,9 +33,7 @@ Design principles:
  - infrastructure
  - identifier exhaustion
 
- Understand availability needs: components that have higher availability design goals will necessitate deeper investment in the engineering, testing, and operations automation.
-
- Application design for availability:
+Common practices to improve availability:
  - fault isolation zones and shards
  - redundant components
  - micro-service architecture
@@ -41,7 +53,7 @@ Design principles:
    - circuit breaker
    - statically stable ?
 
-Operational Considerations for Availability
+### Operational Considerations for Availability
 - automated deployments
   - canary deployments
   - blue-green deployments
@@ -55,7 +67,7 @@ Operational Considerations for Availability
  - percentile metrics shows impending problems
  - monitor external endpoints from remote locations
 
- Example checklist for a typical web application
+### Example checklist for a typical web application
   - adapt to change in demand
   - use monitoring
   - deploy changes
