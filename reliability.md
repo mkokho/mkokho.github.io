@@ -9,6 +9,13 @@ Design principles:
 
 Understand **availability needs**: components that have higher availability design goals will necessitate deeper investment in the engineering, testing, and operations automation.
 
+Areas
+- [Foundations](#foundations)
+- [Application design for availability](#application-design-for-availability)
+- [Operational Considerations for Availability](#operational-Considerations-for-Availability)
+- [Example checklist for a typical web application](#example-checklist-for-a-typical-web-application)
+
+
 ### Foundations 
  - limit management
   - physical limits
@@ -53,7 +60,7 @@ Common practices to improve availability:
    - circuit breaker
    - statically stable ?
 
-### Operational Considerations for Availability
+### Operational considerations for availability
 - automated deployments
   - canary deployments
   - blue-green deployments
