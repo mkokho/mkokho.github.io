@@ -28,7 +28,7 @@ Ensures that only authorized and authenticated principals (users, groups, servic
  - Root account has access to all resources, so it must be protected with MFA and has no access keys
  - IAM users constrained by appropriate policies and MFA are for everyday tasks
  - IAM roles should be used to grant permissions thus forcing IAM users to assume role with enforcement of MFA
- - Use AWS STS to gice permissions to the cloud services (instances, services, tasks)
+ - Use AWS STS to give permissions to the cloud services (instances, services, tasks)
  - Use Managed policies instead of Inline policies
  - Rotate credentials
  - Use policy conditions for extra security
@@ -42,31 +42,31 @@ Principle of least privilege limits the potential impact of inappropriate use of
 Detective controls are an essential part of genernance frameworks. They are used to identify a potential thread an incident.
 
  - Capture and analyze logs
-  	- AWS CloudTrail captures activity in AWS
-  	- AWS CloiudWatch to collect application-based logging
-  	- AWS GuardDuty is a managed threat detection service
-  	- AWS Athena to analyze logs stored in S3 buckets
+ - AWS CloudTrail captures activity in AWS
+   - AWS CloiudWatch to collect application-based logging
+   - AWS GuardDuty is a managed threat detection service
+   - AWS Athena to analyze logs stored in S3 buckets
  - Integrate auditing with notifications
- 	- AWS Config to detect changes in configured services
- 	- AWS SNS to send notifications
- 	- AWS Inspector to find known vulnerabilitues and exposures (CVEs)
+   - AWS Config to detect changes in configured services
+   - AWS SNS to send notifications
+   - AWS Inspector to find known vulnerabilitues and exposures (CVEs)
 
 
 ## Infrastructure protection
 Methodologies to ensure that systems and services are protected against unintended and unathorized access and potential vulnerabilities.
 
  - Protecting network and host-level boundaries
- 	- NACL for subnets. It is statelss so both inbound and outbound rules need to be defined.
- 	- Security groups as statefull firewall for hosts and services.
- 	- Try to use non-overlapping IP addresses for the VPC.
+   - NACL for subnets. It is statelss so both inbound and outbound rules need to be defined.
+   - Security groups as statefull firewall for hosts and services.
+   - Try to use non-overlapping IP addresses for the VPC.
  - System Security Configuration and Maintenance 
- 	- Automate deployment and maintanance to reduce the attach surface
- 	- AWS Systems Manager to define, maintain, and query operating system configuration
- 	- AWS Systems Manager Patch Manager to patch systems
- 	- AWS Inspector to identify vulnerabilities
+   - Automate deployment and maintanance to reduce the attach surface
+   - AWS Systems Manager to define, maintain, and query operating system configuration
+   - AWS Systems Manager Patch Manager to patch systems
+   - AWS Inspector to identify vulnerabilities
  - Enforcing Service-Level Protection
- 	- S3 has bucket policies that define access levels to buckets/objects
- 	- KMS has policies to define administrators and users of the keys
+   - S3 has bucket policies that define access levels to buckets/objects
+   - KMS has policies to define administrators and users of the keys
  	
 
 ## Data protection

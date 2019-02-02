@@ -24,8 +24,8 @@ Using the appropriate services, resources, and configurations for your workloads
 Balance just-in-time supply with requirements for high-availability and provision time.
 
  - demand-based: leverage elasticity of the cloud by using metrics
- 	- understand speed of provisioning
- 	- understand the rate of change in demand
+   - understand speed of provisioning
+   - understand the rate of change in demand
  - buffer-based: leverage queues
     - understand acceptable delay
     - plan to handle duplicate requests
@@ -37,20 +37,20 @@ Balance just-in-time supply with requirements for high-availability and provisio
 Understanding your business cost drivers is critical to managing your business expenditure effectively and identifying cost-reduction opportunities.
 
  - stakeholders need to be involved in usage and expenditure discussions
- 	- financial
- 	- buisness untis
- 	- tech leads
- 	- third parties
+   - financial
+   - buisness untis
+   - tech leads
+   - third parties
  - visibility will enable opportunities for savings
- 	- estimate and forecast
- 	- raise notifications
- 	- assess biggest investments
- 	- analyze spend and usage
- 	- reserved insntance utilization and coverage
+   - estimate and forecast
+   - raise notifications
+   - assess biggest investments
+   - analyze spend and usage
+   - reserved insntance utilization and coverage
  - cost attribution
- 	- account structuring
- 	- tagging
- 	- lifecycle
+   - account structuring
+   - tagging
+   - lifecycle
 
 ### Optimizing over time
 
