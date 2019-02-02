@@ -30,7 +30,7 @@ Areas
 
 ### Application design for availability
 
- Common sources of interruption:
+Common sources of interruption:
  - hardware failure
  - deployment failure
  - load induced
@@ -61,18 +61,18 @@ Common practices to improve availability:
    - statically stable ?
 
 ### Operational considerations for availability
-- automated deployments
+ - automated deployments
   - canary deployments
   - blue-green deployments
   - feature toggles
   - failure isolation zones deployments
-- testing
+ - testing
   - load testing
   - failure testing
   - canary testing
-- monitoring and alarming: generation, aggregation, real-time processing, storage and analytics
- - percentile metrics shows impending problems
- - monitor external endpoints from remote locations
+ - monitoring and alarming: generation, aggregation, real-time processing, storage and analytics
+  - percentile metrics shows impending problems
+  - monitor external endpoints from remote locations
 
 ### Example checklist for a typical web application
   - adapt to change in demand

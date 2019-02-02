@@ -36,27 +36,25 @@ Balance just-in-time supply with requirements for high-availability and provisio
 ### Usage and Expedenture Awareness
 Understanding your business cost drivers is critical to managing your business expenditure effectively and identifying cost-reduction opportunities.
 
-- stakeholders need to be involved in usage and expenditure discussions
- - financial
- - buisness untis
- - tech leads
- - third parties
-- visibility will enable opportunities for savings
- - estimate and forecast
- - raise notifications
- - assess biggest investments
- - analyze spend and usage
- - reserved insntance utilization and coverage
-- cost attribution
- - account structuring
- - tagging
- - lifecycle
+ - stakeholders need to be involved in usage and expenditure discussions
+ 	- financial
+ 	- buisness untis
+ 	- tech leads
+ 	- third parties
+ - visibility will enable opportunities for savings
+ 	- estimate and forecast
+ 	- raise notifications
+ 	- assess biggest investments
+ 	- analyze spend and usage
+ 	- reserved insntance utilization and coverage
+ - cost attribution
+ 	- account structuring
+ 	- tagging
+ 	- lifecycle
 
 ### Optimizing over time
 
 - measure, monitor and improve by using metrics and goals
 - review existing architectural decisiong to unsure they remain cost effective
-- 
-
 
 
