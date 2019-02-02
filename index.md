@@ -8,6 +8,6 @@ layout: default
 - Performance efficiency
 - [Security](./security.md)
 - [Reliability](./reliability.md)
-- Cost optimization
+- [Cost optimization](./cost-optimization.md)
 
 
