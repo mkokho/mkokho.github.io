@@ -2,10 +2,10 @@
 
 Design principles:
  - Implement a strong identity foundation
- 	- Principle of least privilege
- 	- Enforce separation of duties
- 	- Centralize privilege management
- 	- Reduce usage of long-term credentials
+   - Principle of least privilege
+   - Enforce separation of duties
+   - Centralize privilege management
+   - Reduce usage of long-term credentials
  - Enable tracebility
  - Apply security at all levels
  - Automate by managing security as a code
@@ -67,19 +67,19 @@ Methodologies to ensure that systems and services are protected against unintend
  - Enforcing Service-Level Protection
    - S3 has bucket policies that define access levels to buckets/objects
    - KMS has policies to define administrators and users of the keys
- 	
+ 
 
 ## Data protection
  - Data classisfication to create foundation for approriate access levels
- 	- balance usability vs access
- 	- reduce human access to data
- 	- ensure access from trusted network
- 	- require access to decryption keys
- 	- use dashboards and automated reporting
+   - balance usability vs access
+   - reduce human access to data
+   - ensure access from trusted network
+   - require access to decryption keys
+   - use dashboards and automated reporting
  - Encryption/tokenization
-	- protecting data at rest
-	- protecting data in transit
-	- Backups/replication/recovery 
+  - protecting data at rest
+  - protecting data in transit
+  - Backups/replication/recovery 
  - to protect against deletion or destruction 
 
 ## Incident response
